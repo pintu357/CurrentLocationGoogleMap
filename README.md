@@ -16,7 +16,7 @@ Make Change in Manifest File :
   
   
   //Add Dependency in gradle Module :app
-	  implementation 'com.google.android.gms:play-services-maps:18.0.0'
+    implementation 'com.google.android.gms:play-services-maps:18.0.0'
     implementation 'com.google.android.gms:play-services-location:18.0.0'
 
     implementation 'com.karumi:dexter:6.2.3'( It is for taking runtime Permissions)
@@ -24,8 +24,8 @@ Make Change in Manifest File :
 		
 		
 		
-		// Make MainActivity Layout like this(i.e RelativeLayout & fragment)
-		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    // Make MainActivity Layout like this(i.e RelativeLayout & fragment)
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
